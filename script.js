@@ -7,5 +7,31 @@ function handleSubmit(){
   var Ort=document.getElementById('Ort').value;
   var date1=document.getElementById('date1').value;
   var date2=document.getElementById('date2').value;
-  
+  var Mail=document.getElementById('floatingInputValue').value;
+  var Haustier=document.getElementById('Haustier').value;
+  var Datenschutzerklärung=document.getElementById('flexCheckIndeterminate').checked;
 }
+
+var message=
+  'Vorname: ' +
+  Vorname +
+  'Nachname: ' +
+  Nachname +
+  'Straße: ' +
+  Straße +
+  'Hausnummer: ' +
+  Hausnummer +
+  'Postleitzahl: ' +
+  Postleitzahl +
+  'Ort: ' +
+  Ort +
+  'Anreisedatum: ' +
+  date1 +
+  'Abreisedatum: ' +
+  date2 +
+  'E-Mail: ' +
+  Mail +
+  'Mitgebrachte Haustiere: ' +
+  Haustier +
+'Datenschutzerklärung annerkannt: ' + 
+Datenschutzerklärung
